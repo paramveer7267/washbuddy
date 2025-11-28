@@ -13,12 +13,13 @@ const Navbar = () => {
     { label: "Home", href: "/" },
     { label: "Services", href: "/services" },
     { label: "About Us", href: "/about-us" },
+    { label: "Blogs", href: "/blogs" },
     { label: "Locations", href: "/locations" },
-    { label: "Contact", href: "/contact" },
+    // { label: "Contact", href: "/contact" },
   ];
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 bg-white/70 backdrop-blur-xl border-b border-white/40 shadow-sm">
+    <nav className="fixed top-0 left-0 w-full z-50 bg-white border-b border-white/40 shadow-sm">
       <div className="max-w-7xl mx-auto px-5 md:px-10 py-6 md:py-4 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
@@ -46,14 +47,14 @@ const Navbar = () => {
             </Link>
           ))}
           <Link
-            href="/auth/login"
+            href="/contact"
             className="bg-[#003f78] text-white font-semibold px-6 py-1 rounded-3xl 
              border-2 border-[#003f78]
              hover:bg-gray-100 hover:text-[#003f78]
              hover:border-[#003f78]
              transition-all duration-600"
           >
-            Login
+            Contact Us
           </Link>
         </div>
 
@@ -88,11 +89,11 @@ const Navbar = () => {
                 </Link>
               ))}
               <Link
-                href="/auth/login"
+                href="/contact"
                 onClick={() => setIsOpen(false)}
                 className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full font-semibold transition"
               >
-                Login
+                Contact Us
               </Link>
             </div>
           </motion.div>

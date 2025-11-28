@@ -90,7 +90,7 @@ const Footer = () => {
               href="mailto:support@washbuddy.com"
               className="text-blue-600 hover:underline"
             >
-              support@washbuddy.com
+              support@washbud.com.au
             </a>
           </p>
           <p className="text-sm text-gray-600">Phone: +91 98765 43210</p>
@@ -116,7 +116,7 @@ const Footer = () => {
               <Twitter size={20} />
             </a>
             <a
-              href="mailto:support@washbuddy.com"
+              href="mailto:support@washbud.com.au"
               className="text-blue-600 hover:text-blue-800 transition"
             >
               <Mail size={20} />
@@ -128,7 +128,7 @@ const Footer = () => {
       {/* Bottom Copyright */}
       <div className="mt-10 text-center border-t border-blue-200/50 pt-6 text-sm text-gray-500">
         © {new Date().getFullYear()}{" "}
-        <span className="font-semibold text-blue-600">WashBuddy</span>. All
+        <span className="font-semibold text-blue-600">WashBud</span>. All
         rights reserved.
       </div>
     </footer>

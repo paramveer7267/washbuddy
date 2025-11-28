@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Signup = () => {
   return (
-    <div className="min-h-screen p-6 flex items-center justify-center bg-linear-to-br from-blue-50 via-blue-100 to-blue-200">
+    <div className="min-h-dvh p-14 flex items-center justify-center bg-linear-to-br from-blue-50 via-blue-100 to-blue-200">
       <Motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
