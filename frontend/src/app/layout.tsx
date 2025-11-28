@@ -7,7 +7,7 @@ export default function RootLayout({ children }: { children: JSX.Element }) {
     <html lang="en">
       <body>
         <Navbar />
-        <main className="pt-18">{children}</main>
+        <main className="pt-10">{children}</main>
         <Footer />
       </body>
     </html>

@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Droplets } from "lucide-react";
 
 const Navbar = () => {
+  5;
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
@@ -18,7 +19,7 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-white/70 backdrop-blur-xl border-b border-white/40 shadow-sm">
-      <div className="max-w-7xl mx-auto px-5 md:px-10 py-4 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-5 md:px-10 py-6 md:py-4 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
           <motion.div
@@ -46,7 +47,11 @@ const Navbar = () => {
           ))}
           <Link
             href="/auth/login"
-            className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full font-semibold transition"
+            className="bg-[#003f78] text-white font-semibold px-6 py-1 rounded-3xl 
+             border-2 border-[#003f78]
+             hover:bg-gray-100 hover:text-[#003f78]
+             hover:border-[#003f78]
+             transition-all duration-600"
           >
             Login
           </Link>

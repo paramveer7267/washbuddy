@@ -5,9 +5,9 @@ import { Shield, Zap, DollarSign, Users } from "lucide-react";
 
 const AboutUs = () => {
   return (
-    <div className="min-h-screen bg-gray-50 text-gray-800">
+    <div className="min-h-dvh mt-5 bg-gray-50 text-gray-800">
       {/* Header Section */}
-      <section className="bg-linear-to-r from-blue-800 to-blue-900 text-white py-16 px-4 md:px-10">
+      <section className="bg-linear-to-r from-[#003f78] to-[#0562b8] text-white py-16 px-4 md:px-10">
         <div className="max-w-6xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">About Us</h1>
           <p className="text-lg mb-4">

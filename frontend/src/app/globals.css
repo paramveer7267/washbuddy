@@ -1,1 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 @import "tailwindcss";
+html{
+    scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Hide scrollbar but keep scrolling */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #758fb6;
+  border-radius: 6px;
+}
+/* Fix horizontal scrollbar thickness */
+::-webkit-scrollbar:horizontal {
+  height: 7px; /* Slim horizontal scrollbar */
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  background-color: #758fb6; /* Softer color */
+  border-radius: 4px;
+}
+
+button{
+    cursor: pointer;
+}
